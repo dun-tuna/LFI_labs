@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <h1> Home Page</h1>
-        <p>Welcome to the LFI Lab Level 1!</p>
+        <p>Welcome to the LFI Lab Level 3!</p>
         <p>This page is vulnerable to Local File Inclusion.</p>
         <hr>
         <a href="?page=about.php">About</a>
