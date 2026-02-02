@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  lfi-level1:
+    build: .
+    ports:
+      - "8000:80"
+    volumes:
+      - ./html:/var/www/html
+    container_name: lfi_level1_lab
